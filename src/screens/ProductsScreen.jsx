@@ -1,7 +1,7 @@
 import React from 'react';
 import Bounce from 'react-awesome-reveal';
 import Heading from '../components/Heading';
-import Product from '../components/products/Products';
+import Product from '../components/products/Product';
 import useFetch from '../hooks/useFetch';
 
 const ProductsScreen = () => {
