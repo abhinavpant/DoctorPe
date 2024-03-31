@@ -63,7 +63,7 @@ const ProductDetailScreen = () => {
                                     </div>
                                 {/* </flash> */}
                             </div>
-                            <Link to="/products" className="pt-4 text-blue-500 text-sm hover:underline flex items-center space-x-3"><BsArrowLeft /> <span>Back</span></Link>
+                            <Link to="/medicines" className="pt-4 text-blue-500 text-sm hover:underline flex items-center space-x-3"><BsArrowLeft /> <span>Back</span></Link>
                         </div>
                     </>
                 ))}

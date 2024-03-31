@@ -11,7 +11,7 @@ import { Button } from '../Form/Button';
 const Product = ({ id, title, image, description, price, reviews, rating }) => {
   const { user } = useAuth();
   const { handleCart, orders } = useOrder();
-  const { navigate } = useNavigate();
+  const  navigate  = useNavigate();
   const [imageUrl, setImageUrl] = useState(image);
 
   React.useEffect(() => {
@@ -63,7 +63,7 @@ const Product = ({ id, title, image, description, price, reviews, rating }) => {
                         </button>
                     </>
                 )}
-                <Button className="w-36 btn-primary py-3 px-2 poppins text-sm" text="View" onClick={() => navigate(`/products/${title}`)} />
+                <Button className="w-36 btn-primary py-3 px-2 poppins text-sm" text="View" onClick={() => navigate(`/medicines/${title}`)} />
             </div>
 
         </div>
